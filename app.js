@@ -2,12 +2,12 @@ const express=require("express")
 
 const app=express()
 
-const port=process.env.PORT || 3000
+const port=process.env.PORT || 8080
  
 app.get("/",(req,res,next)=>{
-    res.send("<h1>Hello docker</h1>")
+    res.send("<h1>Hello docker i am done two</h1>")
 })
 
 app.listen(port,()=>{
-    console.log("App running  on localhost 3000");
+    console.log("App running  on localhost 8080");
 })
