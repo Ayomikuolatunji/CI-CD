@@ -8,7 +8,7 @@ Learning docker documentation and guild by Ayomiku Olatunji
 <div>
       <h1>Step to get started</h1>
       <ul>
-          <li>Visit hub.docker.com to create an account</li>
-          
+       <li>Visit hub.docker.com to create an account</li>
+        <li>Create a new folder manually on your local machine or open your terminal and type these sequentially command linux users <br/> <span style="color:'blue'">cd Desktop </span> <br/> <span style="color:'blue'">mkdir docker</span> <br/> <span style="color:'blue'">cd docker . </span> </li>
       </ul>
 </div>
