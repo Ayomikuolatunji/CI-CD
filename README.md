@@ -9,6 +9,7 @@ Learning docker documentation and guild by Ayomiku Olatunji
       <h1>Step to get started</h1>
       <ul>
        <li>Visit hub.docker.com to create an account</li>
-        <li>Create a new folder manually on your local machine or open your terminal and type these sequentially command linux users <br/> <span style="color:'blue'">cd Desktop </span> <br/> <span style="color:'blue'">mkdir docker</span> <br/> <span style="color:'blue'">cd docker . </span> </li>
+        <li>Create a new folder manually on your local machine or open your terminal and type these  command <br/> <span style="color:'blue'">cd Desktop </span> <br/> <span style="color:'blue'">mkdir docker</span> <br/> <span style="color:'blue'">cd docker . </span> </li>
+        sudo docker run -v $(pwd):/app -p 8080:8080 -it   nodejs-image
       </ul>
 </div>
